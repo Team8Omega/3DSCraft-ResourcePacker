@@ -1,0 +1,62 @@
+textures\block\bedrock.png
+textures\block\bricks.png
+textures\block\coal_block.png
+textures\block\coal_ore.png
+textures\block\coarse_dirt.png
+textures\block\cobblestone.png
+textures\block\crafting_table_front.png
+textures\block\crafting_table_side.png
+textures\block\crafting_table_top.png
+textures\block\diamond_block.png
+textures\block\diamond_ore.png
+textures\block\dirt.png
+textures\block\oak_door_bottom.png
+textures\block\oak_door_top.png
+textures\block\emerald_block.png
+textures\block\emerald_ore.png
+textures\block\furnace_front.png
+textures\block\furnace_side.png
+textures\block\furnace_top.png
+textures\block\glass.png
+textures\block\gold_block.png
+textures\block\gold_ore.png
+textures\block\dirt_path_side.png
+textures\block\dirt_path_top.png
+textures\block\grass_block_side.png
+textures\block\grass_block_top.png
+textures\block\gravel.png
+textures\block\iron_block.png
+textures\block\iron_ore.png
+textures\block\oak_leaves.png
+textures\block\oak_log.png
+textures\block\oak_log_top.png
+textures\block\oak_planks.png
+textures\block\netherrack.png
+textures\block\obsidian.png
+textures\block\sand.png
+textures\block\sandstone.png
+textures\block\sandstone_bottom.png
+textures\block\sandstone_top.png
+textures\block\smooth_stone.png
+textures\block\snow.png
+textures\block\grass_block_snow.png
+textures\block\stone.png
+textures\block\stone_bricks.png
+# textures\block\black_wool.png
+# textures\block\blue_wool.png
+# textures\block\brown_wool.png
+# textures\block\cyan_wool.png
+# textures\block\gray_wool.png
+# textures\block\green_wool.png
+# textures\block\light_blue_wool.png
+# textures\block\light_gray_wool.png
+# textures\block\lime_wool.png
+# textures\block\magenta_wool.png
+# textures\block\orange_wool.png
+# textures\block\pink_wool.png
+# textures\block\purple_wool.png
+# textures\block\red_wool.png
+textures\block\white_wool.png
+# textures\block\yellow_wool.ong
+
+textures\entity\player\wide\steve.png
