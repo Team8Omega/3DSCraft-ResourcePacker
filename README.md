@@ -1,4 +1,4 @@
-"# 3DSCraft-ResourcePacker" 
+# 3DSCraft ResourcePacker
 
 Currently, version support is limited. 
 ## Tutorial: 
