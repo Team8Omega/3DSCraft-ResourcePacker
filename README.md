@@ -10,7 +10,7 @@ WINDOWS ONLY Currently, use wine for linux.
 ## Tutorial: 
 - Download / Clone the source code of this repo to your computer
 - Minecraft 1.20 needs to be downloaded via the launcher.
-- Go to the  ```C:\Users\<user>\AppData\Roaming\.minecraft\versions``` folder
+- Go to the  ```C:\Users\%USERNAME%\AppData\Roaming\.minecraft\versions``` folder
 - Enter 1.20*\\ folder
 - Extract jar file with 7zip, winrar or any other software
 - Take "assets" directory from extracted jar directory, copy to downloaded 3DSCraft-ResourcePacker folder.
