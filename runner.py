@@ -1,12 +1,14 @@
 import os
 import shutil
 import sys
+import subprocess
 
 # Define paths
 ASSETSDIR = "assets"
 ASSETS = os.path.join(ASSETSDIR, "minecraft")
 PATCH = os.path.join("patch", "minecraft")
 OUTPUT = os.path.join("output", "3dscraft", "resourcepacks", "minecraft")
+JSON2MP = os.path.join("tools", "json2mp")  # Path to the json2mp tool
 
 # Check if a custom ASSETS path is provided
 if len(sys.argv) > 1:
@@ -50,8 +52,19 @@ with open("files.txt", "r") as file:
                 dest_dir = os.path.dirname(dest)
                 if not os.path.exists(dest_dir):
                     os.makedirs(dest_dir)
-                print(f"Copying file {src} to {dest}")
-                shutil.copy2(src, dest)
+                
+                # Check if the file is a .json file
+                if src.endswith(".json"):
+                    mp_dest = dest.replace(".json", ".mp")
+                    print(f"Converting {src} to {mp_dest} using json2mp")
+                    try:
+                        subprocess.run([JSON2MP, "-i", src, "-o", mp_dest], check=True)
+                    except subprocess.CalledProcessError as e:
+                        print(f"Error converting {src}: {e}")
+                        sys.exit(1)
+                else:  # All other files are copied directly
+                    print(f"Copying file {src} to {dest}")
+                    shutil.copy2(src, dest)
             else:
                 print(f"Error: Source path does not exist: {src}")
                 sys.exit(1)

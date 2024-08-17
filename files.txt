@@ -23,3 +23,5 @@ textures/block/dark_oak_planks.png
 textures/block/bedrock.png
 
 textures/entity/player/wide/steve.png
+
+lang/en_us.json
