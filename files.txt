@@ -25,3 +25,7 @@ textures/block/bedrock.png
 textures/entity/player/wide/steve.png
 
 lang/en_us.json
+
+blockstates/
+models/block/
+models/item/
